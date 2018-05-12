@@ -1,0 +1,35 @@
+.update_patient{
+	margin-top:5%;
+	margin-left:20%;
+	width:700px;
+	height:600px;
+	border: solid 1px gray;
+	border-radius:3px;
+}
+.update_patient_name{
+	height:80px;
+	font-size:30px;
+	color:black;
+	padding-top:10%;
+	font-family:"Roboto";
+}
+.update_patient_ag{
+	height:80px;
+	font-size:22px;
+	color:black;
+	padding-top:10%;
+}
+.update_patient_age{
+	padding-left:90px;
+	font-size:22px;
+}
+.update_patient_gender{
+	padding-right:90px;
+	font-size:22px;
+}
+.update_patient_button{
+	width:80px;
+	height:30px;
+	margin-top:220px;
+	margin-left:280px;
+}

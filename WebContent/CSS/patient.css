@@ -1,0 +1,103 @@
+.patient{
+	margin-top:5%;
+	margin-left:20%;
+	width:700px;
+	height:600px;
+	border: solid 1px gray;
+	border-radius:3px;
+}
+.patient_name{
+	height:80px;
+	font-size:30px;
+	color:black;
+	padding-top:10%;
+	font-family:"Roboto";
+}
+.patient_ag{
+	height:80px;
+	font-size:22px;
+	color:black;
+	padding-top:10%;
+}
+.patient_age{
+	padding-left:90px;
+	font-size:22px;
+}
+.patient_gender{
+	padding-right:90px;
+	font-size:22px;
+}
+.header_div{
+	margin-top:-1.2%;
+	margin-right:-0.6%;
+	margin-left:-0.6%;
+	height:60px;
+	background:RGB(239,108,0);
+}
+.header_div li{
+	float:left;
+	height:20px;
+	padding-right:24px;
+	margin-top:1.1%;
+	border-radius:3px;
+	list-style-type: none; 
+}
+.header_div li a{
+	color: rgb(255, 224, 204);
+	font-size:21px;
+	text-decoration:none;
+	font-family:"Roboto";
+}
+.header_div li a:hover{
+	color:white;
+}
+.delete_patient_li a{
+	padding-right:150px;
+}
+.search_input{
+	float:left;
+	height:30px;
+	width:250px;
+	margin-top:-0.5%;
+	padding-left:3%;
+	border-radius:3px;
+	border:2px solid RGB(252,139,0);
+	background:RGB(252,139,0);
+	color:white;
+	letter-spacing:0.7px;
+	font-size:16px;
+	font-family:"Roboto";
+}
+.search_input:active, .search_input:focus{
+	background:RGB(252,139,0);
+}
+::placeholder {
+	color:white;
+	font-size:16px;
+	font-family:"Roboto";
+	letter-spacing:0.75px;
+}
+.submit_search{
+	float:right;
+	margin-top:-0.9%;
+	margin-right:-4%;
+	border-radius:8px;
+	border: 1px solid RGB(239,108,0);
+	height:40px;
+	width:110px;
+	color:rgb(255, 224, 204);
+	font-size:21px;
+	letter-spacing:0.7px;
+	background:RGB(239,108,0);
+}
+.submit_search:hover{
+	/*border:1px solid gray;*/
+	cursor:pointer;
+	color:white;
+}
+body{
+	background:white;
+}
+.footer{
+	height:100px;
+}
